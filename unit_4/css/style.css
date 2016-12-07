@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Bungee');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
+
+h1 {
+	font-family: 'Bungee', cursive, Helvetica;
+	font-weight: bold;
+	font-size:72px;
+	text-align: center;
+	text-shadow: 2px 2px #000000;
+	color: #EEBB00;
+}
+h2 {
+	font-family: Lucidia, sans-serif;
+	font-weight: normal;
+	font-style: italic;
+	text-align: center;
+	font-size:28px;
+	text-shadow: 2px 2px #000000;
+	color: #EEEEEE;
+}
+hr {
+	width: 500px;
+}
+body {
+	background: url(http://www.thelocationguide.com/blog/wp-content/uploads/2014/07/Transformers-on-location.jpg);
+	background-position: top;
+	background-size: cover;
+	text-align: center;
+}
+p {
+	background-color: #EEBB00;
+	font-family: 'Open Sans Condensed', sans-serif, Arial;
+	font-weight: normal;
+	text-align: left;
+	color: #000000;
+}

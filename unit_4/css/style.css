@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Bungee');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
 
 h1 {
 	font-family: 'Bungee', cursive, Helvetica;
@@ -10,7 +11,7 @@ h1 {
 	color: #EEBB00;
 }
 h2 {
-	font-family: Lucidia, sans-serif;
+	font-family: 'Ubuntu', sans-serif, Lucidia, sans-serif;
 	font-weight: normal;
 	font-style: italic;
 	text-align: center;

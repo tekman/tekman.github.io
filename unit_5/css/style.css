@@ -28,3 +28,34 @@ div {
     border: 1px black solid;
     padding: 20px;
 }
+section {
+    background-color: #FFE2B8;
+    border: 1px black solid;
+    padding: 20px;
+}
+h1 {
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size:72px;
+    text-align: center;
+    text-shadow: 2px 2px #000000;
+    color: #EEBB00;
+}
+h2 {
+    font-family: Lucidia, sans-serif;
+    font-weight: normal;
+    font-style: italic;
+    text-align: center;
+    font-size:28px;
+    text-shadow: 2px 2px #000000;
+    color: #EEEEEE;
+}
+hr {
+    width: 500px;
+}
+p {
+    font-family: Arial;
+    font-weight: normal;
+    text-align: left;
+    color: #000000;
+}

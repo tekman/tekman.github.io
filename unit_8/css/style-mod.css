@@ -1,0 +1,112 @@
+body {
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    background: url(http://www.thelocationguide.com/blog/wp-content/uploads/2014/07/Transformers-on-location.jpg);
+    background-position: top;
+    background-size: cover;
+}
+div {
+/*    background-color: #FFE2B8; */
+    border: 1px black solid;
+    padding: 20px;
+}
+header {
+    background-color: #FFED74; 
+    border: 1px black solid;
+    padding: 20px; */
+}
+nav {
+    background-color: #E8C66A;
+    border: 1px black solid;
+    text-align: center;
+    padding: 1em 0;    
+}
+section {
+}
+aside {
+}
+article {
+/*    background-color: #E89C6C; */
+    border: 1px black solid;
+    padding: 20px;
+}
+footer {
+/*    background-color: #FF957E; */
+    background-color: #E89C6C;
+    border: 1px black solid;
+    text-align: center;
+    padding: 1em 0;
+    clear: both;
+}
+h1 {
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size:4em;
+    text-align: center;
+    text-shadow: 2px 2px #000000;
+    color: #EEBB00;
+}
+h2 {
+    font-family: Lucidia, sans-serif;
+    font-weight: normal;
+    font-style: italic;
+    text-align: center;
+    font-size:1.5em;
+    text-shadow: 2px 2px #FFFFFF;
+    color: #555555;
+}
+p {
+    font-family: Arial;
+    font-weight: normal;
+    text-align: left;
+    color: #000000;
+}
+.wrapper {
+}
+#two_column {
+/*    background-color: #FFE2B8; */
+    border: 1px black solid;
+    padding: 20px;
+}
+#left {
+    background-color: #ff957e;
+    border: 1px black solid;
+    padding: 20px;
+    float: left;
+    width: 30%;
+}
+#right {
+    background-color: #fffebb;
+    border: 1px black solid;
+    padding: 20px;
+    float: right;   
+    width: 62%;
+}
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+@media only screen and (max-width: 1000px) {
+    body {
+    font-size: 14px;
+    }
+    section {
+        float: none;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    body {
+    font-size: 10px;
+    }
+    h1 {
+    font-size:2em;
+    }
+    header, aside, article {
+        overflow: auto;
+    }
+}

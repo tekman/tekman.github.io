@@ -1,9 +1,10 @@
 body {
     font-size: 18px;
     font-family: 'Open Sans', sans-serif;
-    background: url(http://www.thelocationguide.com/blog/wp-content/uploads/2014/07/Transformers-on-location.jpg);
+    background: url(http://nerdist.com/wp-content/uploads/2016/11/michael-bay.jpg);
     background-position: top;
     background-size: cover;
+    background-repeat: repeat-y;
 }
 div {
 /*    background-color: #FFE2B8; */
@@ -24,11 +25,13 @@ nav {
 section {
 }
 aside {
+    margin: 1px;
 }
 article {
 /*    background-color: #E89C6C; */
     border: 1px black solid;
     padding: 20px;
+    margin: 2px;    
 }
 footer {
 /*    background-color: #FF957E; */
@@ -41,9 +44,9 @@ footer {
 h1 {
     font-family: Helvetica;
     font-weight: bold;
-    font-size:72px;
+    font-size:4em;
     text-align: center;
-    text-shadow: 2px 2px #000000;
+    text-shadow: .05em .05em #000000;
     color: #EEBB00;
 }
 h2 {
@@ -51,8 +54,8 @@ h2 {
     font-weight: normal;
     font-style: italic;
     text-align: center;
-    font-size:28px;
-    text-shadow: 2px 2px #FFFFFF;
+    font-size:1.5em;
+    text-shadow: .05em .05em #FFFFFF;
     color: #555555;
 }
 p {
@@ -80,7 +83,7 @@ p {
     border: 1px black solid;
     padding: 20px;
     float: right;   
-    width: 62%;
+    width: 60%;
 }
 .clearfix:after {
     visibility: hidden;
@@ -89,4 +92,25 @@ p {
     content: " ";
     clear: both;
     height: 0;
+}
+@media only screen and (max-width: 1000px) {
+    body {
+    font-size: 14px;
+    }
+    #left, #right {
+        float: none;
+        width: auto;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    body {
+    font-size: 10px;
+    }
+    h1 {
+    font-size:2em;
+    }
+    header, aside, article {
+        overflow: auto;
+    }
 }
